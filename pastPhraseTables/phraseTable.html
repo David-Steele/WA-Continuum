@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" content="HTML, CSS">
+<title>Your Phrase Table(s) :-)</title>
+<style>
+.table tr:hover td {background-color:#ffff99;background:rgba(0,80,0,0.5);}
+/*.table tr:hover th {background-color:#ffff99;background:rgba(0,80,0,0.5);}*/
+th.rotate {height: 140px;white-space: nowrap}
+th.rotate > div {transform: translate(0px, 68px)rotate(310deg);width: 16px;}
+th.rotate > div > span {border-bottom: 0px solid #ccc; padding: 2px 10px;}
+
+.table-header-rotated {/*border-collapse: collapse;*/ 
+	.csstransforms & td {width: 20px;}
+	.no-csstransforms & th { padding: 5px 10px;}
+  td {text-align: center;padding: 2px 2px;border: 0px solid #ccc;}
+  
+  /* .csstransforms & th.rotate {height: 140px;white-space: nowrap;
+   /* // Firefox needs the extra DIV, otherwise the text disappears if you rotate 
+    > div {
+      transform: translate(18px, 51px)rotate(310deg);width: 30px;}
+    > div > span {border-bottom: 1px solid #ccc;padding: 5px 10px;}}
+  th.row-header {padding: 0 10px;border-bottom: 1px solid #ccc;}}*/
+}
+tr {height : 16px; padding : 2px;}
+td {width : 16px; min-width :16px;}
+table {font-size:12px;}
+table.t {position: absolute;left: 30px;font-size:11px;  white-space: nowrap;}
+div.a {width:130px; height:12px; white-space: nowrap; font-size: 12px; text-align: left; /* background-color: #b0c4de;*/ font-family: Arial, Helvetica, sans-serif;
+          -webkit-transform:rotate(-50deg); /* for Safari and Chrome */
+          -ms-transform:rotate(-50deg); /* this for oldish IE*/
+          -moz-transform:rotate(-50deg); /* for Firefox */
+          -o-transform:rotate(-50deg); /* for Opera */
+}
+div.b {border: 1px solid #a1a1a1; padding: 2px 2px; background: #0000ff;
+    width: 15px; height : 15px; border-radius: 3px;}
+
+div.c {padding: 2px 2px; width: 80px; height: 15px; padding-top: 4px}
+
+div.d {font-size:10px;}
+
+div.grey{border: 1px solid #a1a1a1; padding: 2px 2px; background: #d3d3d3;
+    width: 15px; height : 15px; border-radius: 3px;}
+</style>
+<script>
+function c(x) {var res = x.id.split("-");document.getElementById(res[1]).style.background = "#33cc66"; }
+function d(x) {var res = x.id.split("-");document.getElementById(res[1]).style.background = ""; }
+</script>
+</head>
+<body> 
+<div style="position: absolute;top:100px; left:4px;"><h5>0<h5></div>
+<table class="table table-header-rotated" style="position: absolute;top:20px; left: 30px;">
+<thead>
+<tr>
+<th class="rotate"><div><span id="0:0">0) why</span></div></th>
+<th class="rotate"><div><span id="0:1">1) not</span></div></th>
+<th class="rotate"><div><span id="0:2">2) ?</span></div></th>
+<th class="rotate"><div><span id="0:3">3) then</span></div></th>
+<th class="rotate"><div><span id="0:4">4) ,</span></div></th>
+<th class="rotate"><div><span id="0:5">5) step</span></div></th>
+<th class="rotate"><div><span id="0:6">6) over</span></div></th>
+<th class="rotate"><div><span id="0:7">7) to</span></div></th>
+<th class="rotate"><div><span id="0:8">8) the</span></div></th>
+<th class="rotate"><div><span id="0:9">9) washstand</span></div></th>
+<th class="rotate"><div><span id="0:10">10) ,</span></div></th>
+<th class="rotate"><div><span id="0:11">11) please</span></div></th>
+<th class="rotate"><div><span id="0:12">12) .</span></div></th>
+</tr>
+</thead>
+<tbody>
+<tr><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">0) 怎么</td></tr><tr><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">1) 会</td></tr><tr><td id="2-0:0" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">2) 呢</td></tr><tr><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td id="3-0:2" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">3) ?</td></tr><tr><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td id="4-0:9" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#8f8"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">4) 请到</td></tr><tr><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td id="5-0:9" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td id="5-0:10" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">5) 盥洗</td></tr><tr><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td id="6-0:9" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#8f8"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">6) 盆</td></tr><tr><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td id="7-0:8" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">7) 那</td></tr><tr><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td id="8-0:11" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">8) 边</td></tr><tr><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td id="9-0:12" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="white-space: nowrap;">9) 。</td></tr><tr><td colspan="100%">怎么 会 呢 ? 请到 盥洗 盆 那 边 。</td></tr>
+                            <tr><td colspan="100%">why not ? then , step over to the washstand , please .</td></tr>
+                            <tr><td colspan="100%">2-0 3-2 4-9 5-9 5-10 6-9 7-8 8-11 9-12</td></tr>
+                            </table>
+<div style="position: absolute;top:528px; left:4px;"><h5>1<h5></div>
+<table class="table table-header-rotated" style="position: absolute;top:448px; left: 30px;">
+<thead>
+<tr>
+<th class="rotate"><div><span id="1:0">0) it</span></div></th>
+<th class="rotate"><div><span id="1:1">1) 's</span></div></th>
+<th class="rotate"><div><span id="1:2">2) under</span></div></th>
+<th class="rotate"><div><span id="1:3">3) the</span></div></th>
+<th class="rotate"><div><span id="1:4">4) washstand</span></div></th>
+<th class="rotate"><div><span id="1:5">5) .</span></div></th>
+</tr>
+</thead>
+<tbody>
+<tr><td style="background-color:#8f8"></td><td style="background-color:#8f8"></td><td id="0-1:2" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#8f8"></td><td style="background-color:#8f8"></td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">0) 在</td></tr><tr><td id="1-1:0" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td id="1-1:1" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#8f8"></td><td style="background-color:#8f8"></td><td id="1-1:4" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">1) 脸盆架</td></tr><tr><td style="background-color:#8f8"></td><td style="background-color:#8f8"></td><td id="2-1:2" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td id="2-1:3" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td id="2-1:4" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="background-color:#bbb"></td><td style="white-space: nowrap;">2) 下面</td></tr><tr><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td style="background-color:#bbb"></td><td id="3-1:5" onmouseover="c(this)" onmouseout="d(this)" style="background-color:#8f8; border: 1px solid black;">#</td><td style="white-space: nowrap;">3) 。</td></tr><tr><td colspan="100%">在 脸盆架 下面 。</td></tr>
+                            <tr><td colspan="100%">it 's under the washstand .</td></tr>
+                            <tr><td colspan="100%">1-0 1-1 0-2 2-2 2-3 1-4 2-4 3-5</td></tr>
+                            </table>
+
+</body>
+</html>
